@@ -1,0 +1,74 @@
+       /* Navbar customizations */
+       .navbar {
+        padding: 1rem;
+        background-color: #130F65;
+    }
+    
+    .nav-link.active {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .py-6 {
+        padding-top: 6rem !important;
+        padding-bottom: 6rem !important;
+      }
+    /* Hero section customizations */
+    header {
+        background: linear-gradient(120deg,#1B156B,#325bcd);
+        color: white;
+        text-align: center;
+    }
+    
+    header img {
+        margin-top: 20px;
+        max-width: 60%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+    
+    .hero-section{
+        
+        height: auto;
+    }
+    
+    .about-section{
+        
+        height: auto;
+    }
+    /* Buttons inside About Section */
+.about-section .custom-btn {
+    background-color: #e7f2ee;
+    color: #21CDAD;
+    border: none;
+    padding: 10px 20px; /* Increase padding */
+    font-size: 1.00rem; /* Larger font size */
+}
+
+.about-section .custom-btn:hover {
+    background-color: #E0F7F1; /* Optional hover effect */
+    color: #1BAA94;
+}
+
+
+.about-section .btn-success {
+    background-color: #1ACC8E; /* Custom success green */
+    color: white;
+    border: none;
+    padding: 10px 25px; /* Increase padding */
+}
+.about-section .btn-success:hover {
+    background-color: #1BAA94; /* Darker shade on hover */
+    color: #f0f0f0; /* Optional lighter text */
+}
+
+/* insights section */
+.insights-section {
+    background-color: #d9d4e3; /* Light background similar to the image */
+    padding: 50px 0;
+    height: auto;
+}
+
+.details-section img{
+    max-width: 70%;
+}
